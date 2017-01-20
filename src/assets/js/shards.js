@@ -85,7 +85,7 @@ Plugin.prototype.catcol = function(col){
 Plugin.prototype.fit = function(){
 	this.el.css({
 		'width':'100%',
-		'height': window.innerHeight
+		//'height': window.innerHeight
 	})
 }
 
