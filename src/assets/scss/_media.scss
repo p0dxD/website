@@ -15,46 +15,46 @@
 
 	.portrait{
 		    // background-size: auto 100%;
-    height: 165px;
-    width: 165px;
-    left: 50px;
-    top: 23px;
-	}
+        height: 165px;
+        width: 165px;
+        left: 50px;
+        top: 23px;
+      }
 
 
 
-	  .hexagon {
-  position: relative;
-    width: 150px;
-    height: 86.60px;
-    left: -77px;
-    margin: 43.30px 0;
-&:before,
-&:after {
-  content: "";
-  position: absolute;
-  width: 0;
-  border-left: 75px solid transparent;
-  border-right: 75px solid transparent;
-}
+      .hexagon {
+        position: relative;
+        width: 150px;
+        height: 86.60px;
+        left: -77px;
+        margin: 43.30px 0;
+        &:before,
+        &:after {
+          content: "";
+          position: absolute;
+          width: 0;
+          border-left: 75px solid transparent;
+          border-right: 75px solid transparent;
+        }
 
-&:before {
-  bottom: 100%;
-  border-bottom: 43.30px solid #64C7CC;
-}
+        &:before {
+          bottom: 100%;
+          border-bottom: 43.30px solid #64C7CC;
+        }
 
-&:after {
-  top: 100%;
-  width: 0;
-  border-top: 43.30px solid #64C7CC;
-}
-
-
+        &:after {
+          top: 100%;
+          width: 0;
+          border-top: 43.30px solid #64C7CC;
+        }
 
 
-}
 
-}
+
+      }
+
+    }
 
 // @media all and (orientation:landscape) {
 //   Style adjustments for landscape mode goes here
