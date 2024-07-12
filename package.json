@@ -10,7 +10,7 @@
   "license": "ISC",
   "devDependencies": {
     "assemble": "~0.4.41",
-    "balloon-css": "^0.3.0",
+    "balloon-css": "^0.5.0",
     "grunt": "^1.0.1",
     "grunt-contrib-clean": "^1.0.0",
     "grunt-contrib-compass": "^1.1.1",
